@@ -7,8 +7,8 @@ if(NOT DEFINED ENV{MACOSX_DEPLOYMENT_TARGET})
 endif()
 
 # Global options which can bet set on command line e.g.: cmake -DSMTG_ENABLE_VST3_PLUGIN_EXAMPLES=OFF ...
-option(SMTG_ENABLE_VST3_PLUGIN_EXAMPLES "Enable VST 3 Plug-in Examples" ON)
-option(SMTG_ENABLE_VST3_HOSTING_EXAMPLES "Enable VST 3 Hosting Examples" ON)
+option(SMTG_ENABLE_VST3_PLUGIN_EXAMPLES "Enable VST 3 Plug-in Examples" OFF)
+option(SMTG_ENABLE_VST3_HOSTING_EXAMPLES "Enable VST 3 Hosting Examples" OFF)
 option(SMTG_ENABLE_VSTGUI_SUPPORT "Enable VSTGUI Support" ON)
 
 #-------------------------------------------------------------------------------
